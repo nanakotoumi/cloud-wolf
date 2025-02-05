@@ -1,6 +1,6 @@
 /* ページ全体の背景とフォント */
 body {
-  background-color: #ff69b4;  /* ホットピンク（鮮やかなピンク） */
+  background-color: #f0f8ff; /* 淡い青の背景 */
   font-family: Arial, sans-serif; /* すっきりしたフォント */
   margin: 20px;
 }
