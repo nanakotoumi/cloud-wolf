@@ -35,3 +35,30 @@ img {
   border-radius: 10px;     /* 角を丸くする */
   max-width: 100%;         /* 画面サイズに合わせて調整 */
 }
+/* ページ全体のスタイル */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f8ff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Flexboxの親要素（コンテナ） */
+.container {
+  display: flex;                   /* Flexboxを有効化！ */
+  justify-content: space-around;   /* 要素の間に均等なスペース */
+  align-items: center;             /* 高さの中央に揃える */
+  background-color: #ddd;          /* 背景色でわかりやすく */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* 子要素（ボックス）のスタイル */
+.item {
+  background-color: #3498db;       /* 青い背景 */
+  color: white;                    /* 文字色は白 */
+  padding: 20px;
+  width: 100px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.3); /* 影をつける */
+}
